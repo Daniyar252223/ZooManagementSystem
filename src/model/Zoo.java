@@ -10,7 +10,12 @@ public class Zoo {
         this.location = location;
         this.animalsCount = animalsCount;
     }
-
+    public String ZooName() {
+        return zooName;
+    }
+    public String Location() {
+        return location;
+    }
     public int getAnimalsCount() {
         return animalsCount;
     }
