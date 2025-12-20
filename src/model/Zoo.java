@@ -3,7 +3,7 @@ package model;
 public class Zoo {
     private String zooName;
     private String location;
-    private int animalsCount; // NEW ATTRIBUTE
+    private int animalsCount;
 
     public Zoo(String zooName, String location, int animalsCount) {
         this.zooName = zooName;

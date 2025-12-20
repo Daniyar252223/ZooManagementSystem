@@ -3,7 +3,7 @@ package model;
 public class Zookeeper {
         private String name;
         private int experienceYears;
-        private double salary; // NEW ATTRIBUTE
+        private double salary;
 
         public Zookeeper(String name, int experienceYears, double salary) {
             this.name = name;

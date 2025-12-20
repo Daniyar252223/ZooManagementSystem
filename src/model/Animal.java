@@ -4,7 +4,7 @@ public class Animal {
     private String name;
     private String species;
     private int age;
-    private double weight; // NEW ATTRIBUTE
+    private double weight;
 
     public Animal(String name, String species, int age, double weight) {
         this.name = name;
