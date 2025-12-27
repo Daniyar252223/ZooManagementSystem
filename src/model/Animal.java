@@ -28,4 +28,9 @@ public class Animal {
     public void makeSound() {
         System.out.println(name + " makes a sound.");
     }
+
+    @Override
+    public String toString() {
+        return name + " (" + species + ", age=" + age + ", weight=" + weight + ")";
+    }
 }
